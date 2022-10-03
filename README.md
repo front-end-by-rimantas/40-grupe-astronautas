@@ -12,7 +12,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/40-grupe-astronautas/
 
-Design: https://dribbble.com/shots/5964475/attachments/5964475-404-Lost-in-Space
+Design: https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif
 
 ## Project features
 
