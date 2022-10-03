@@ -1,7 +1,36 @@
-header,
-main,
-footer {
+.container {
     width: 800px;
-    background-color: pink;
     margin-left: calc((100% - 800px) / 2);
+}
+
+/* HEADER */
+.logo {
+    height: 50px;
+    background-color: red;
+}
+.main-menu {
+}
+.main-menu > .link {
+}
+
+/* MAIN */
+.left-column {
+}
+.main-title {
+}
+.main-title > span {
+}
+.description {
+}
+.btn {
+}
+.right-column {
+}
+
+/* FOOTER */
+.socials {
+}
+.socials > .link {
+}
+.copyright {
 }
