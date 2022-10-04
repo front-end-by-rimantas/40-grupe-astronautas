@@ -1,3 +1,8 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
 .container {
     display: inline-block;
     width: 800px;
@@ -13,12 +18,17 @@
 }
 .main-menu {
     float: right;
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 20px;
 }
 .main-menu > .link {
     color: #000;
     margin-left: 30px;
     text-decoration: none;
+}
+.main-menu > .link:nth-of-type(1) {
+    margin-left: 0;
 }
 .main-menu > .underline {
     text-decoration: underline;
@@ -26,16 +36,35 @@
 
 /* MAIN */
 .left-column {
+    width: 40%;
+    float: left;
 }
 .main-title {
+    font-size: 50px;
 }
 .main-title > span {
+    font-weight: normal;
 }
 .description {
 }
 .btn {
+    display: inline-block;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #662c8c;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.btn.btn-white {
+    background-color: red;
 }
 .right-column {
+    width: 60%;
+    float: right;
 }
 
 /* FOOTER */
