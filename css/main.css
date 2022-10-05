@@ -31,6 +31,9 @@ footer.container {
     margin-left: 30px;
     text-decoration: none;
 }
+.main-menu > .link:hover {
+    text-decoration: underline;
+}
 .main-menu > .link:nth-of-type(1) {
     margin-left: 0;
 }
@@ -92,8 +95,23 @@ footer.container {
 
 /* FOOTER */
 .socials {
+    float: left;
 }
 .socials > .link {
+    height: 2em;
+    width: 2em;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2em;
+    color: #ccc;
+    text-decoration: none;
+}
+.socials > .link:hover {
+    background-color: #662c8c;
+    color: #fff;
+    border-radius: 50%;
 }
 .copyright {
+    float: right;
 }
