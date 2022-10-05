@@ -54,6 +54,12 @@ footer.container {
 .main-title > span {
     font-weight: normal;
 }
+.main-title > .line {
+    display: block;
+    height: 4px;
+    width: 20%;
+    background-color: #662c8c;
+}
 .description {
     display: inline-block;
     width: 100%;
